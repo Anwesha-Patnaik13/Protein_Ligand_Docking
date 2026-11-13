@@ -1,0 +1,14 @@
+# Backup and intermediate files
+ligand/ligand_old.pdbqt
+ligand/ligand_bad.pdbqt
+ligand/lig1.pdbqt
+ligand/lig2.pdbqt
+protein/receptor_old.pdbqt
+
+# Individual pose files (the combined docked files are kept)
+results/pose*.pdb
+results/v2_pose*.pdb
+
+# Python cache
+__pycache__/
+*.pyc
